@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JOSTORE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li>Мерч</li>
+<li class="logo">JOSTORE</li>
+<li>Контакты</li>
+</ul>
+</nav>
+</header>
+<section class="hero-fullwidth">
+<div class="hero-overlay"></div>
+<div class="hero-content-full">
+<h1>Фигурки, одежда, манга</h1>
+<p>Всё для фанатов вселенной JoJo's Bizarre Adventure</p>
+<span class="btn">Товары</span>
+</div>
+</section>
+<div class="container">
+<div class="item">
+<h2>Фигурка Джайро Цеппели</h2>
+<img src="https://img.joomcdn.net/152a1eefc51edc57b319a28d17ec40be00414e2b_original.jpeg" alt="1">
+<p>99.99$</p>
+<button class="btn2">Купить</button>
+<button class="btn1">Подробнее</button>
+</div>
+<div class="item">
+<h2>JJBA part 2 манга</h2>
+<img src="https://n.cdn.cdek.shopping/images/shopping/4f7GkAS6y9npatYF.jpg?v=1" alt="">
+<p>15.81$</p>
+<button class="btn2">Купить</button>
+<button class="btn1">Подробнее</button>
+</div>
+<div class="item">
+<h2>Футболка с Джорно</h2>
+<img src="https://avatars.mds.yandex.net/i?id=aa1349e3a8070320191e4cbc41ca02c775c580ac-5699445-images-thumbs&n=13" alt="">
+<p>9.19$</p>
+<button class="btn2">Купить</button>
+<button class="btn1">Подробнее</button>
+</div>
+</div>
+<section class="hero-fullwidth second-hero">
+<div class="hero-overlay"></div>
+<div class="hero-content-full">
+<h1>Невероятные скидки</h1>
+<p>-15% на все товары в честь выхода 7-й части</p>
+</div>
+</section>
+<footer>
+<div class="footer-container">
+<div class="footer-content">
+<div class="footer-column">
+<ul>
+
+<li>Каталог</li>
+
+<li>Доставка и оплата</li>
+</ul>
+</div>
+<div class="footer-column">
+<ul>
+<li>г. Москва, ул. Пушкина, д.Колотушкина</li>
+<li>+7 (495) 999-99-67</li>
+<li>ыыы@mail.ru</li>
+</ul>
+</div>
+</div>
+<p class="copyright">Хуснуллин Амир</p>
+</div>
+</footer>
+</body>
+</html>
