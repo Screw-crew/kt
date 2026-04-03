@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<htmllang="ru">
+<html>
+<head>
+<metacharset="UTF-8">
+</head>
+<header><h1>Карточки</h1>
+</header>
+<body>
+<main>
+<pre>
+<div class="container">
+<div class="item"><h1>Блок-1</h1>
+</div>
+<div class="item2"><h1>Блок-2</h1>
+</div>
+<div class="item3"><h1>Блок-3</h1>
+</div>
+<div class="item4"><h1>Блок-4</h1>
+</div>
+<div class="item5"><h1>Блок-5</h1>
+</div>
+</div>
+</pre>
+<pre>
+<pre>
+<div class="container2">
+<div class="item6"><h1>Блок-6</h1>
+</div>
+<div class="item7"><h1>Блок-7</h1>
+</div>
+<div class="item8"><h1>Блок-8</h1>
+</div>
+<div class="item9"><h1>Блок-9</h1>
+</div>
+<div class="item10"><h1>Блок-10</h1>
+</div>
+</div>
+</pre>
+</main>
+</body>
+</html>
