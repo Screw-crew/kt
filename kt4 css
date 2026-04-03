@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+    background-color: #FEFEFE;
+    color: #A0A0A0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FEFEFE;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+nav ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    color: #0A0A0A;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    color: #0A0A0A;
+    letter-spacing: 1px;
+}
+
+.hero-fullwidth {
+    width: 100%;
+    height: 90vh;
+    min-height: 550px;
+    background-image: url('https://i.ytimg.com/vi/2RJmJLkDs-A/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.second-hero {
+    background-image: url('https://static.wikia.nocookie.net/414b2668-e852-4d35-bdc7-8ab195994035');
+    background-position: center 40%;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(10,10,10,0.7) 0%, rgba(10,10,10,0.3) 70%, rgba(0,0,0,0.1) 100%);
+}
+
+.hero-content-full {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding-left: 10%;
+    color: white;
+}
+
+.hero-content-full h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.hero-content-full p {
+    font-size: 24px;
+    margin-bottom: 35px;
+    color: #FEFEFE;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0A0A0A;
+    color: #FEFEFE;
+    padding: 12px 30px;
+    font-weight: 600;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: white;
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #0A0A0A;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.item p {
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: #0A0A0A;
+    line-height: 1.4;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+.btn2, .btn1 {
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.btn1 {
+    background-color: #FFFFFF;
+    color: #0A0A0A;
+    border: 1px solid #0A0A0A;
+}
+
+.btn2 {
+    background-color: #0A0A0A;
+    color: #FEFEFE;
+}
+
+footer {
+    background-color: #0A0A0A;
+    color: #fff;
+    padding: 50px 0 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+    color: #D0D0D0;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .hero-content-full h1 {
+        font-size: 38px;
+    }
+    .hero-content-full p {
+        font-size: 18px;
+    }
+    .hero-content-full {
+        padding-left: 5%;
+    }
+    .hero-fullwidth {
+        height: 70vh;
+        min-height: 450px;
+    }
+    nav ul {
+        gap: 20px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .container {
+        gap: 20px;
+    }
+    nav ul li {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+}
